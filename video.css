@@ -1,0 +1,28 @@
+#global3 {
+	background-color: rgba(0,0,0,.2);
+	width: 1000px;
+	padding: 20px;
+	margin: -6 auto 0px auto;
+	height: 1100px;
+	font-family: Arial,sans-serif;
+	position: relative;
+}
+
+#galeria-video {
+	width: 900px;
+	height: 580px;
+	background-color: rgba(0,0,0,.4);
+	margin-left: 50px;
+	margin-top: 50px;
+	border-radius: 15px;
+}
+
+ video#video {
+	width: 800px;
+	height: 500px;
+	margin-left: 52px;
+	margin-top: 40px;
+}
+
+
+

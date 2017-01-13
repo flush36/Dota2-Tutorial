@@ -1,0 +1,124 @@
+
+#global {
+	background-color: rgba(0,0,0,.2);
+	width: 1000px;
+	padding: 20px;
+	margin: -6px auto 0px auto;
+	height: 2900px;
+	font-family: Arial,sans-serif;
+	position: relative;
+}
+
+#cabecalho ul {
+	display: flex;
+	margin: 5px;
+	margin-left: 80px;
+	
+}
+#cabecalho li {
+	margin-left: 100px;
+	list-style: none;
+	font-size: 17pt;
+	padding: 7px;
+	border-radius: 7px;
+}
+
+
+
+#cabecalho li:hover a {
+	color: #fff;
+	background-color: rgba(0,0,0,.8);
+	transition: 1s;
+
+}
+#cabecalho li a {
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	font-size: 17pt;
+	padding: 7px;
+	border-radius: 7px;
+	background-color: rgba(0,0,0,.4);
+
+}
+
+#artigo h1 {
+	
+	padding: 5px;
+	background-color: #fff;
+	text-align: center;
+	color: rgba(0,0,0,.6);
+	margin-top: 40px;
+}
+#artigo p {
+	width: 80%;
+	text-align: left;
+	margin: 25px;
+	margin-top: 40px;
+	text-align: justify;
+	color: rgba(0,0,0,.9)
+}
+#dota2 h1{
+	padding: 5px;
+	background-color: #fff;
+	text-align: center;
+	color: rgba(0,0,0,.6);
+	margin-top: 40px;
+}
+#dota2 p{
+	width: 80%;
+	text-align: left;
+	margin: 25px;
+	margin-top: 40px;
+	text-align: justify;
+}
+
+
+
+
+.div-imagem {
+	width: 100%;
+	height: 220px;
+	border: 2px solid rgba(0,0,0,.7);
+	margin: auto;
+	animation: banner 15s infinite;
+
+}
+@-webkit-keyframes banner {
+
+	0%, 25% {
+		background-image: url(imagens/mmo-banner.jpg);
+	}
+	26%, 50% {
+		background-image: url(imagens/mmo-banner2.jpg);
+	}
+	51%, 75% {
+		background-image: url(imagens/mmo-banner3.JPG);
+	}
+	76%,100% {
+		background-image: url(imagens/mmo-banner4.jpg);
+	}
+}
+
+.dota2-tipos img {
+	margin-left: 30px;
+}
+.dota2-tipos h2 {
+	margin-left: 30px;
+}
+
+#rodape {
+	text-align: center;
+	margin-top: 70px;
+}
+#rodape a {
+	color: rgba(1,1,1,.6);
+}
+#global h2 {
+	color: rgba(0,0,0,.6);
+}
+#artigo strong {
+	color: #fff;
+}
+
+ 

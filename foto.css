@@ -1,0 +1,227 @@
+#global2 {
+	background-color: rgba(0,0,0,.2);
+	width: 1000px;
+	padding: 20px;
+	margin: -6 auto 0px auto;
+	height: 1700px;
+	font-family: Arial,sans-serif;
+	position: relative;
+	
+}
+
+div#artigo {
+	margin-top: 50px;
+	font-size: 9pt;
+}
+
+ul#galeria {
+	width: 900px;
+	height: 1100px;
+	padding: 50px;
+	list-style: none;
+	background-color: rgba(0,0,0,.4);
+	border-radius: 15px;
+
+}
+ul#galeria li {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 40px;
+	border: 2px solid #fff;
+	box-shadow: 7px 7px 7px black;
+}
+
+ul#galeria li#foto01 {
+	background-image: url(imagens/dota2-all.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 220px 220px;
+}
+
+ul#galeria li#foto02 {
+	background-image: url(imagens/dota2-baratun.jpg);
+	background-position: 70% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto03 {
+	background-image: url(imagens/dota2-bartrider.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 350px;
+	
+}
+
+
+
+ul#galeria li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto04 {
+	background-image: url(imagens/dota2-camp1.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto05 {
+	background-image: url(imagens/dota2-fundo.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto06 {
+	background-image: url(imagens/dota2-ember.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto07 {
+	background-image: url(imagens/dota2-lanaya.jpg);
+	background-position: 80% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto07:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto08 {
+	background-image: url(imagens/dota2-naix.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto08:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto09 {
+	background-image: url(imagens/dota2-never.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto09:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto10 {
+	background-image: url(imagens/dota2-pa.jpg);
+	background-position: 80% 40%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto10:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto11 {
+	background-image: url(imagens/dota2-ti.jpg);
+	background-position: 50% 10%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto11:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto12 {
+	background-image: url(imagens/dota2-ursa.jpg);
+	background-position: 80% 20%;
+	background-size: 350px 350px;
+}
+
+
+
+ul#galeria li#foto12:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#galeria li span {
+	opacity: 0;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000000;
+	padding: 3px;
+	background-color: rgba(0,0,0,.3);
+	font-size: 13pt;
+	line-height: 350px;
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+
+#galeria li:hover span {
+	opacity: 1;
+}
+
+#galeria li:hover {
+	-webkit-transform: scale(1.5);
+	transition: all 1s ease-in;
+}
+
+#div-footer2 {
+	position: relative;
+	top: 10px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+#global4 {
+	background-color: rgba(0,0,0,.2);
+	width: 1000px;
+	padding: 20px;
+	margin: -6px auto 0px auto;
+	height: 1000px;
+	font-family: Arial,sans-serif;
+	position: relative;
+}
+
+#fundo-artigo {
+	width: 900px;
+	height: 390px;
+	padding: 50px;
+	list-style: none;
+	background-color: rgba(0,0,0,.4);
+	border-radius: 15px;
+	margin-top: 30px;
+}
+#autor-foto {
+	width: 150px;
+	height: 190px;
+	padding: 15px;
+	margin: 20px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	position: relative;
+	top: 5px;
+	left: 15px;
+	margin-top: 35px;
+	background-image: url(imagens/thiago.jpg);
+	background-position: -10% 40%;
+}
+
+
+#fundo-artigo aside#sobre {
+	position: absolute;
+	top: 435px;
+	left: 360px;
+	width: 605px;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 15px;
+	margin-top: 30px;
+	box-shadow: 4px 4px 10px #000000;	
+}
+
+aside#sobre h3{
+position: relative;
+text-align: center;
+color: rgba(0,0,0,.7);
+}
+aside#sobre p {
+	margin-top: 28px;
+	color: rgba(0,0,0,.9);
+	position: relative;
+	left: 12px;
+}
+
+#rodape4 {
+	text-align: center;
+	margin-top: 100px;
+}
+#rodape4 a {
+	color: rgba(1,1,1,.6);
+
+
